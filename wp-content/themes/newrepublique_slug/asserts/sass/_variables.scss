@@ -22,6 +22,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'FreightBig Pro';
+    src: url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.eot');
+    src: url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.woff2') format('woff2'),
+        url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.woff') format('woff'),
+        url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.ttf') format('truetype'),
+        url('./asserts/fonts/FreightBigPro/FreightBigProBold-Regular.svg#FreightBigProBold-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 $stdblack: #000;
 $stdwhite: #fff;
 $gray999: #999;
