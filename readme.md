@@ -1,4 +1,4 @@
-db: 
+database: 
 username: admin
 passwrod: PfXz2ppAo3OPcekt
 table_prefix: nrwp_
