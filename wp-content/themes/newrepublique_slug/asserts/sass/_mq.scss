@@ -4,3 +4,35 @@
         width: 100%;
     }
 }
+
+@media all and (max-width: 1328px) {
+    .bgheader {
+        .col-xs-4 {
+            padding: 0;
+            img {
+                height: 96px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 880px) {
+    .bgheader {
+        .col-xs-4 {
+            img {
+                height: 70px;
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .bgheader {
+        .col-xs-4 {
+            img {
+                height: 100px;
+            }
+        }
+    }
+}

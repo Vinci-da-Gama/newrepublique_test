@@ -51,9 +51,57 @@
 	bottom: 0px;
 	> li {
 		display: initial;
+		button:before {
+			color: $actived;
+		}
+	}
+	li.slick-active button:before {
+		color: $actived;
 	}
 }
 /* END carousel */
+
+/* bg img with content */
+.bgheader {
+	background: transparent url('./asserts/img/bgiheader.png') top center no-repeat;
+	background-size: cover;
+}
+.title {
+	font-family: 'FreightBig Pro';
+	font-size: 45px;
+	color: $stdblack;
+	line-height: 53px;
+	margin: 3em auto 30px;
+}
+/* END bg img with content */
+
+/* grid row */
+.title-row {
+	font-family: 'FreightBig Pro';
+	font-size: 45px;
+	color: $stdblack;
+	line-height: 53px;
+	margin: 2em auto 30px;
+}
+.links {
+	font-size: 16px;
+	color: $stdblack;
+	border-bottom: 2px solid $stdblack;
+	text-transform: uppercase;
+	font-family: 'ProximaNova-Semibold';
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $stdblack;
+	}
+}
+.left-side, .right-side {
+	.ui-box {
+		padding: 0;
+		padding-bottom: 6px;
+	}
+}
+/* END grid row */
 
 /* footer */
 .newrepublique-footer {

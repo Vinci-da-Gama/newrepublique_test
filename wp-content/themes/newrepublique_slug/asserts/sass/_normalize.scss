@@ -11,12 +11,21 @@ body {
 	width: 100%;
 	height: auto;
 	font-family: 'ProximaNova-Light';
+	color: $stdblack;
 }
 
 h1,h2,h3,h4,h5,h6,div,section,p {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizelegibility;
+}
+
+a {
+	font-family: 'ProximaNova-Semibold';
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
 }
 
 hr {
@@ -37,16 +46,29 @@ hr {
 .margin-auto {
 	margin: 0 auto;
 }
+.marginlr0 {
+	margin-left: 0;
+	margin-right: 0;
+}
 .mb2em {
 	margin-bottom: 2em;
 }
 .mb6em {
 	margin-bottom: 6em;
 }
+.mb50px {
+	margin-bottom: 50px;
+}
+.mb200px {
+	margin-bottom: 200px;
+}
 /* END margin */
 
 /* padding */
 .nopadding {
 	padding: 0;
+}
+.padding-text-right {
+	padding: 0 120px 0 85px;
 }
 /* END padding */
