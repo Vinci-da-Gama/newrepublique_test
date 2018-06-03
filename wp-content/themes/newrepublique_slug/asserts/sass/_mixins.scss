@@ -28,3 +28,10 @@
         width: $width;
 	}
 }
+
+@mixin uibox-padding() {
+	.ui-box {
+		padding: 0;
+		padding-bottom: 6px;
+	}
+}

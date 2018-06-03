@@ -16,6 +16,27 @@
     }
 }
 
+@media all and (max-width: 1324px) {
+    .title-row {
+        margin: 10px auto 30px;
+    }
+}
+
+@media all and (max-width: 1178px) {
+    .padding-text-right {
+        padding: 0 30px 0 0;
+    }
+    .padding-text-left {
+        padding: 0 0 0 30px;
+    }
+    .title-row {
+        margin: 5px auto;
+    }
+    .mb50px {
+        margin-bottom: 5px;
+    }
+}
+
 @media all and (max-width: 880px) {
     .bgheader {
         .col-xs-4 {
@@ -23,6 +44,12 @@
                 height: 70px;
             }
         }
+    }
+}
+
+@media all and (max-width: 848px) {
+    .title-row {
+        font-size: 30px;
     }
 }
 
@@ -34,5 +61,19 @@
                 height: 100px;
             }
         }
+    }
+    .padding-text-right,.padding-text-left {
+        padding: 0 100px;
+        margin-bottom: 30px;
+    }
+    .title-row {
+        margin: 30px auto 30px;
+        font-size: 45px;
+    }
+    .mb50px {
+        margin-bottom: 50px;
+    }
+    .links {
+        margin-bottom: 50px;
     }
 }

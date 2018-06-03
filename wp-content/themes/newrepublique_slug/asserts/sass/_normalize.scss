@@ -42,6 +42,10 @@ hr {
 	display: none;
 }
 
+.bgcfa {
+	background-color: $grayfa;
+}
+
 /* margin */
 .margin-auto {
 	margin: 0 auto;
@@ -70,5 +74,11 @@ hr {
 }
 .padding-text-right {
 	padding: 0 120px 0 85px;
+}
+.padding-text-left {
+	padding: 0 85px 0 120px;
+}
+.pl0 {
+	padding-left: 0;
 }
 /* END padding */

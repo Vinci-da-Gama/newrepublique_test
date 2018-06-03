@@ -95,12 +95,15 @@
 		color: $stdblack;
 	}
 }
-.left-side, .right-side {
-	.ui-box {
-		padding: 0;
-		padding-bottom: 6px;
-	}
+.left-side,.right-side {
+	opacity: 0;
+	@include uibox-padding();
 }
+
+.left-text {
+	@include uibox-padding();
+}
+
 /* END grid row */
 
 /* footer */
