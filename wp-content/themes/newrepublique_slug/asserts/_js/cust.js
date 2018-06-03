@@ -2,15 +2,22 @@ $(document).ready(function() {
 	newrepubliqueCarousel();
 
     const leftsider2 = $('.left2'),
-    	  rightsider2 = $('.right2');
-    // wobble, tada, bounceInUp
+		  rightsider2 = $('.right2'),
+		  leftsider4 = $('.left4'),
+    	  rightsider4 = $('.right4'),
+		  leftsider6 = $('.left6'),
+    	  rightsider6 = $('.right6');
     const fil = 'fadeInLeftBig',
         fir = 'fadeInRightBig';
     const row2pos = '50%',
-    	  row3pos = '65%',
-    	  row4pos = '80%';
+    	  row4pos = '60%',
+    	  row6pos = '70%';
     sideWaypoint(leftsider2, fil, row2pos);
     sideWaypoint(rightsider2, fir, row2pos);
+    sideWaypoint(leftsider4, fil, row4pos);
+    sideWaypoint(rightsider4, fir, row4pos);
+    sideWaypoint(leftsider6, fil, row6pos);
+    sideWaypoint(rightsider6, fir, row6pos);
 });
 
 function newrepubliqueCarousel() {

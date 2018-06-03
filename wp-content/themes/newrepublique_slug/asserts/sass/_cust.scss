@@ -104,6 +104,16 @@
 	@include uibox-padding();
 }
 
+.paragraph-top {
+	margin-top: 50px
+}
+
+.left-list {
+	ul {
+		padding-left: 15px;
+	}
+}
+
 /* END grid row */
 
 /* footer */

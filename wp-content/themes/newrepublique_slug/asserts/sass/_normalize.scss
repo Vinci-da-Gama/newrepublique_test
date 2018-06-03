@@ -46,6 +46,10 @@ hr {
 	background-color: $grayfa;
 }
 
+.bgfff {
+	background-color: $stdwhite;
+}
+
 /* margin */
 .margin-auto {
 	margin: 0 auto;
@@ -80,5 +84,9 @@ hr {
 }
 .pl0 {
 	padding-left: 0;
+}
+.plr0 {
+	padding-left: 0;
+	padding-right: 0;
 }
 /* END padding */
