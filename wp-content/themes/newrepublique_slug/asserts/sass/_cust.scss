@@ -100,7 +100,7 @@
 	@include uibox-padding();
 }
 
-.left-text {
+.left-text, .sup-link {
 	@include uibox-padding();
 }
 
@@ -112,6 +112,10 @@
 	ul {
 		padding-left: 15px;
 	}
+}
+
+.sup-link {
+	margin-bottom: 70px;
 }
 
 /* END grid row */

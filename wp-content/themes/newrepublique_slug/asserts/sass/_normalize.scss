@@ -50,6 +50,10 @@ hr {
 	background-color: $stdwhite;
 }
 
+.form-control {
+	height: 48px;
+}
+
 /* margin */
 .margin-auto {
 	margin: 0 auto;
@@ -66,6 +70,9 @@ hr {
 }
 .mb50px {
 	margin-bottom: 50px;
+}
+.mb30px {
+	margin-bottom: 30px;
 }
 .mb200px {
 	margin-bottom: 200px;
