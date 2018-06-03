@@ -21,14 +21,14 @@ get_header(); ?>
         <aside class="hidden-xs col-sm-2 sidemenu-outlet">
         <?php get_sidebar(); ?>
         </aside>
-        <div id="content" class="col-xs-12 col-sm-10">
+        <div id="content" class="col-xs-12 col-sm-10 nopadding">
             <main>
                 <?php if ( have_posts() ) : if ( is_home() && ! is_front_page() ) : ?>
-                        <div>
-                            <h2 class="page-title screen-reader-text">
-                                <?php single_post_title(); ?>
-                            </h2>
-                        </div>
+                    <div>
+                        <h2 class="page-title screen-reader-text">
+                            <?php single_post_title(); ?>
+                        </h2>
+                    </div>
                     <?php
                     endif;
 
@@ -52,7 +52,6 @@ get_header(); ?>
 
                 endif; ?>
             </main>
-            <?php // get_footer(); ?>
         </div>
     </div>
 </div>

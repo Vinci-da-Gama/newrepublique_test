@@ -51,6 +51,7 @@
 			'after'  => '</div>',
 		) );
 		?>
+		<?php get_footer(); ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

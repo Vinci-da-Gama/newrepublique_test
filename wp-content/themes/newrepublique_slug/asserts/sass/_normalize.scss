@@ -19,12 +19,34 @@ h1,h2,h3,h4,h5,h6,div,section,p {
 	text-rendering: optimizelegibility;
 }
 
+hr {
+	max-width: 80%;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+	border-bottom: 1px solid #494949;
+	padding-top: 15px;
+    clear: both;
+}
+
+.entry-header {
+	display: none;
+}
+
 /* margin */
 .margin-auto {
 	margin: 0 auto;
 }
-
+.mb2em {
+	margin-bottom: 2em;
+}
 .mb6em {
 	margin-bottom: 6em;
 }
 /* END margin */
+
+/* padding */
+.nopadding {
+	padding: 0;
+}
+/* END padding */

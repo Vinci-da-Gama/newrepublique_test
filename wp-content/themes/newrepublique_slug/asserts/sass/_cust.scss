@@ -8,6 +8,18 @@
 	min-height: 65px;
 	background-color: $stdwhite;
 	margin-bottom: 0;
+	border: none;
+	.navbar-collapse {
+		border: none;
+	}
+}
+.navbar-fixed-top {
+	.navbar-collapse {
+		max-height: 510px;
+	}
+}
+#menu-top_menu {
+	@include menu-item(3em, 140px);
 }
 /* END top_Menu */
 
@@ -22,32 +34,65 @@
     margin: auto;
 	padding: 0;
 	width: 110px;
-	> li {
-		font-family: ProximaNova-Semibold;
-		font-size: 13px;
-		letter-spacing: 2px;
-		list-style: none;
-		text-transform: uppercase;
-		margin-bottom: 10px;
-		a {
-			color: $gray999;
-			position: relative;
-			text-decoration: none;
-			padding: 0px 0px 10px 0px;
-			display: block;
-			border-bottom: 2px solid $gray999;
-			-webkit-transition: color .3s ease-in-out;
-			-moz-transition: color .3s ease-in-out;
-			-o-transition: color .3s ease-in-out;
-			transition: color .3s ease-in-out;
-			&:hover {
-				color: $stdblack;
-			}
-		}
-	}
-	.ui-box {
-		padding: 19px 0 0 0;
-	}
+	@include menu-item(0, 100%);
 }
 
 /* END side_Menu */
+
+/* carousel */
+.slick-dotted.slick-slider {
+	margin: 0;
+}
+.newrepublique-slick-images .slick-dots {
+	display: inherit;
+	position: absolute;
+	top: 50%;
+	left: 95%;
+	bottom: 0px;
+	> li {
+		display: initial;
+	}
+}
+/* END carousel */
+
+/* footer */
+.newrepublique-footer {
+	padding-top: 80px;
+	padding-bottom: 30px;
+	border-top: 1px solid $gray97;
+	background-color: $stdblack;
+	.foooter_social_link {
+		margin-bottom: 50px;
+		> a {
+			display: inline-block;
+			position: relative;
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			border: 1px solid $darkborder;
+			margin: 0 10px;
+			color: $stdwhite;
+			-webkit-transition: color .3s ease-in-out;
+			-moz-transition: color .3s ease-in-out;
+			-ms-transition: color .3s ease-in-out;
+			-o-transition: color .3s ease-in-out;
+			transition: color .3s ease-in-out;
+			&:hover {
+				color: $actived;
+			}
+			i {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 25px;
+			}
+		}
+	}
+	.copyright {
+		color: $gray97;
+		line-height: 28px;
+		margin: 20px auto 10px;
+	}
+}
+/* END footer */

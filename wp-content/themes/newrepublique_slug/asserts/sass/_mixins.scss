@@ -1,0 +1,30 @@
+@mixin menu-item($ml, $width) {
+    > li {
+		font-family: ProximaNova-Semibold;
+		font-size: 13px;
+		letter-spacing: 2px;
+		list-style: none;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		a {
+			color: $gray999;
+			position: relative;
+			text-decoration: none;
+			padding: 0px 0px 10px 0px;
+			display: block;
+			border-bottom: 2px solid $gray999;
+			-webkit-transition: color .3s ease-in-out;
+			-moz-transition: color .3s ease-in-out;
+			-o-transition: color .3s ease-in-out;
+			transition: color .3s ease-in-out;
+			&:hover {
+				color: $stdblack;
+			}
+		}
+	}
+	.ui-box {
+        padding: 19px 0 0 0;
+        margin-left: $ml;
+        width: $width;
+	}
+}

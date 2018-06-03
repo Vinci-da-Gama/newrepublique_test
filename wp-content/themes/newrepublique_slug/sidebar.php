@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<aside id="secondary" class="widget-area" style="border: 1px solid red;">
+<aside id="secondary" class="widget-area">
 	<div class="text-center mb6em">
 		<img class="sidebar-logo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/06/logo.png" alt="cmp_logo" />
 	</div>
