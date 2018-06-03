@@ -38,14 +38,9 @@ function sideWaypoint(content, animateType, pos) {
     content.waypoint(function(direction) {
         var classesNeed = 'display-whenwaypoint-ready ' + animateType + ' animated';
         if (direction === 'down' && !content.hasClass('animated')) {
-            // var relatedElem = $(this);
-            console.log('139 -- content is: ', content);
             content.addClass(classesNeed);
         }
     }, {
-        // offset is A percentage of the viewport's height
-        // It define how long from top you want to trigger the animation
-        // there are 2 units of it , one is % ('50%') another is px(number only).
         offset: pos
     });
 };
