@@ -1,0 +1,15 @@
+/*!
+Theme Name: newrepublique_test
+Theme URI: http://newrepublique.com/
+Author: Collin
+Author URI: http://newrepublique.com/
+Description: newrepublique_test
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newrepublique_test_slug
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/@font-face{font-family:'ProximaNova-Semibold';src:url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot");src:url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff2") format("woff2"),url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff") format("woff"),url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf") format("truetype"),url("./asserts/fonts/ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");font-weight:600;font-style:normal}@font-face{font-family:'ProximaNova-Light';src:url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.eot");src:url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.woff2") format("woff2"),url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.woff") format("woff"),url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.ttf") format("truetype"),url("./asserts/fonts/ProximaNova-Light/ProximaNova-Light.svg#ProximaNova-Light") format("svg");font-weight:100;font-style:normal}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0}body{margin:0 auto;padding:0;width:100%;height:auto;font-family:'ProximaNova-Light'}h1,h2,h3,h4,h5,h6,div,section,p{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizelegibility}.margin-auto{margin:0 auto}.mb6em{margin-bottom:6em}.navbar-default{min-height:65px;background-color:#fff;margin-bottom:0}.sidemenu-outlet{height:100vh;padding:0}#menu-side-menu{float:none;margin:auto;padding:0;width:110px}#menu-side-menu>li{font-family:ProximaNova-Semibold;font-size:13px;letter-spacing:2px;list-style:none;text-transform:uppercase;margin-bottom:10px}#menu-side-menu>li a{color:#999;position:relative;text-decoration:none;padding:0px 0px 10px 0px;display:block;border-bottom:2px solid #999;-webkit-transition:color .3s ease-in-out;-moz-transition:color .3s ease-in-out;-o-transition:color .3s ease-in-out;transition:color .3s ease-in-out}#menu-side-menu>li a:hover{color:#000}#menu-side-menu .ui-box{padding:19px 0 0 0}

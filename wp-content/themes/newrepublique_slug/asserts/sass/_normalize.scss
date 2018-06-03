@@ -1,0 +1,30 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+	margin: 0;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	font-family: 'ProximaNova-Light';
+}
+
+h1,h2,h3,h4,h5,h6,div,section,p {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizelegibility;
+}
+
+/* margin */
+.margin-auto {
+	margin: 0 auto;
+}
+
+.mb6em {
+	margin-bottom: 6em;
+}
+/* END margin */
